@@ -36,10 +36,10 @@ As a facility could have one or many shifts, there a one to many relationship be
 - Choose a relational database manager like postgreSQL
 - Create tables : Agent, Shift, MapperAgentShift and Facility
 - Tables structure : 
-  -- Facility : (id, name, location)
-  -- Shift: (id, name, quarter, facility_fk)
-  -- MapperAgentShift : (id_agent, id_shift) 
-  -- Agent: (id, name, phone, adress, shift_fk)
+  - Facility : (id, name, location)
+  - Shift: (id, name, quarter, facility_fk)
+  - MapperAgentShift : (id_agent, id_shift) 
+  - Agent: (id, name, phone, adress, shift_fk)
 
 ### ticket 2 : Create an MVC design pattern with controllers, service and repository management using an ORM
 
@@ -67,9 +67,9 @@ Create relevant backend services
 
 #### Technical solution
 
-Create service : `getShiftsByFacility` : (facilityID): string | number => Shift[])
-Create service : `getAgentsByShift` : (shiftID): string | number => Agent[])
-Create service : `getShiftsByAgent` : (agentID): string | number => Shift[])
+- Create service : `getShiftsByFacility` : (facilityID): string | number => Shift[])
+- Create service : `getAgentsByShift` : (shiftID): string | number => Agent[])
+- Create service : `getShiftsByAgent` : (agentID): string | number => Shift[])
 
 #### ACS :
 - all the  3 services retrieve the correct data
