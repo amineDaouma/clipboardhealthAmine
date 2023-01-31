@@ -43,6 +43,9 @@ As a facility could have one or many shifts, there a one to many relationship be
 
 ### ticket 2 : Create an MVC design pattern with controllers, service and repository management using an ORM
 
+#### Time estimation : 1d
+
+
 #### Description
 Setup the server architecture using MVC pattern.
 
@@ -55,6 +58,9 @@ Setup the server architecture using MVC pattern.
 - Run the server correctyly and test the connection between server and database
 
 ### ticket 3 : Create useful services (using Typecript)
+
+#### Time estimation : 0.5d
+
 
 #### Description
 Create relevant backend services
@@ -70,6 +76,9 @@ Create service : `getShiftsByAgent` : (agentID): string | number => Shift[])
 
 ### ticket 4 : Create generateReport service
 Create service : `generateReport` : (Shift[]) => PDFfile
+
+#### Time estimation : 1h
+
 
 #### Technical solution
 Choose a PDF generator depending on the server runnning environment (java, Node etc.)
