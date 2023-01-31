@@ -9,3 +9,6 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+In this refactored code, the logic for converting data to a string and creating a hash is separated into two functions: stringify and hash. This makes the code more readable and reusable, as these functions can be used elsewhere if needed.
+
+This code also eliminates redundant assignments of `TRIVIAL_PARTITION_KEY` and also eliminates the multiple `if` statements as they make the code not readable.
