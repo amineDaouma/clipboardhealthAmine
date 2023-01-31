@@ -21,6 +21,8 @@ You will be graded on the level of detail in each ticket, the clarity of the exe
 
 ### ticket 1 : Database management
 
+
+
 #### Time estimation : 30min
 
 #### Description
