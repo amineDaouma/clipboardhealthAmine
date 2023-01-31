@@ -16,4 +16,4 @@ This code also eliminates redundant assignments of `TRIVIAL_PARTITION_KEY` and a
 
 ### CAN NOT EXECUTE TESTS with JEST
 
-image.png
+![image](https://user-images.githubusercontent.com/6795689/215763686-a77b4682-b58e-4c05-8f84-830b7063cea8.png)
