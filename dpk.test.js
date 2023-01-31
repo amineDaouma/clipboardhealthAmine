@@ -10,7 +10,7 @@ describe("deterministicPartitionKey", () => {
     const result = deterministicPartitionKey(event);
     expect(result).toHaveLength(128);
   });
-  it("returns the partition key from the event object if it exists", () => {
+  it("returns the partition key: MouseDownKey from the event object if it exists", () => {
     const event = { partitionKey: "MouseDownKey" };
     const result = deterministicPartitionKey(event);
     expect(result).toBe("MouseDownKey");
