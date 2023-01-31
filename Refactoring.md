@@ -12,3 +12,8 @@ You will be graded on the exhaustiveness and quality of your unit tests, the dep
 In this refactored code, the logic for converting data to a string and creating a hash is separated into two functions: stringify and hash. This makes the code more readable and reusable, as these functions can be used elsewhere if needed.
 
 This code also eliminates redundant assignments of `TRIVIAL_PARTITION_KEY` and also eliminates the multiple `if` statements as they make the code not readable.
+
+
+### CAN NOT EXECUTE TESTS with JEST
+
+image.png
